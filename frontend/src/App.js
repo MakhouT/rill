@@ -67,8 +67,8 @@ function RillApp() {
   
   useEffect(() => {
     console.log('useEffect');
+    initializeModal();
   }, []);
-  initializeModal();
 
   const login = async () => {
     const provider = await web3auth.connect();
@@ -82,7 +82,7 @@ function RillApp() {
   }
 
   return (
-    user ? <Dashboard logout={logout} /> : <Login login={login} />
+    loaded && user ? <Dashboard logout={logout} getUserInfo={getUserInfo} /> : <Login login={login} initializeModal={initializeModal} />
   );
 }
 
