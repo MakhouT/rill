@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from './../logo.svg'
 import pfp from './../assets/pfp.jpg'
+import { NFTGallery } from './components/NFTGallery'
 
 const user = {
   name: 'Tom Cook',
@@ -190,7 +191,9 @@ export function Dashboard({getUserInfo, logout}) {
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             {/* Replace with your content */}
             <div className="px-4 py-6 sm:px-0">
-              <div className="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+              <div className="border-4 border-dashed border-gray-200 rounded-lg">
+                <NFTGallery />
+              </div>
             </div>
             {/* /End replace */}
           </div>
