@@ -1,5 +1,8 @@
 http = require('http');
 fs = require('fs');
+const WebSocket = require('ws');
+
+const wss = new WebSocket.Server({ port: 8080 });
 
 port = 5000;
 host = '127.0.0.1';
@@ -21,15 +24,18 @@ server = http.createServer( function(req, res) {
                 body += JSON.stringify(data, null, 4);
 
                 for (const [key, value] of Object.entries(data.previously.allplayers)) {
-
                     if (value.match_stats && typeof value.match_stats.kills != "undefined") {
-                        console.log(data.allplayers[key].name, 'got a kill!');
+                        const update = `${data.allplayers[key].name} [${key}] got a kill! `;
+                        console.log(update);
+
+                        wss.clients.forEach(function each(client) {
+                            if (client.readyState === WebSocket.OPEN) {
+                                client.send(update);
+                            }
+                        });
                     }
                 }
             }
-
-
-
         });
         req.on('end', function () {
             // console.log("POST payload: " + body);
@@ -41,15 +47,12 @@ server = http.createServer( function(req, res) {
                 }
               });
         });
-    }
-    else
-    {
+    } else {
         console.log("Not expecting other request types...");
         res.writeHead(200, {'Content-Type': 'text/html'});
 		var html = '<html><body>HTTP Server at http://' + host + ':' + port + '</body></html>';
         res.end(html);
     }
-
 });
 
 server.listen(port, host);

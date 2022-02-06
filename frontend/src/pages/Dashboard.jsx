@@ -5,6 +5,7 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from './../logo.svg'
 import pfp from './../assets/pfp.jpg'
 import { NFTGallery } from './components/NFTGallery'
+import GameLog from './components/GameLog'
 
 const user = {
   name: 'Tom Cook',
@@ -193,6 +194,12 @@ export function Dashboard({getUserInfo, logout}) {
             <div className="px-4 py-6 sm:px-0">
               <div className="border-4 border-dashed border-gray-200 rounded-lg">
                 <NFTGallery />
+              </div>
+            </div>
+
+            <div className="px-4 py-6 sm:px-0">
+              <div className="border-4 border-dashed border-gray-200 rounded-lg">
+                <GameLog />
               </div>
             </div>
             {/* /End replace */}
