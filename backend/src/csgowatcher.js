@@ -4,19 +4,42 @@ fs = require('fs');
 port = 5000;
 host = '127.0.0.1';
 
-server = http.createServer( function(req, res) {
+fs.writeFile('log.txt', '', () => {
+    console.log('Logs will be written to log.txt');
+});
 
+server = http.createServer( function(req, res) {
     if (req.method == 'POST') {
-        console.log("Handling POST request...");
         res.writeHead(200, {'Content-Type': 'text/html'});
 
-        var body = '';
+        let body = '';
         req.on('data', function (data) {
-            body += data;
+            data = JSON.parse(data)
+            body += JSON.stringify(data, null, 4);
+            
+            if (data.previously && data.previously.allplayers) {
+                body += JSON.stringify(data, null, 4);
+
+                for (const [key, value] of Object.entries(data.previously.allplayers)) {
+
+                    if (value.match_stats && typeof value.match_stats.kills != "undefined") {
+                        console.log(data.allplayers[key].name, 'got a kill!');
+                    }
+                }
+            }
+
+
+
         });
         req.on('end', function () {
-            console.log("POST payload: " + body);
+            // console.log("POST payload: " + body);
         	res.end( '' );
+
+            fs.appendFile("log.txt", body, (err) => {
+                if (err) {
+                  console.log(err);
+                }
+              });
         });
     }
     else
