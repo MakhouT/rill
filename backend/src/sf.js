@@ -116,7 +116,7 @@ async function start() {
 
   // startFlow("0xF94C51949dECe1D5Abedd361DD0AedF6FCaC12C6");
   // stopFlow("0xF94C51949dECe1D5Abedd361DD0AedF6FCaC12C6");
-  await createIndex();
+  // await createIndex();
 }
 
 start();
