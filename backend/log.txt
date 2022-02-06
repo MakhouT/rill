@@ -6220,4 +6220,1564 @@
     "auth": {
         "token": "Q79v5tcxVQ8u"
     }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 2,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265729": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 8
+                }
+            },
+            "76561197960265737": {
+                "match_stats": {
+                    "deaths": 1
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265729": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 8
+                }
+            },
+            "76561197960265737": {
+                "match_stats": {
+                    "deaths": 1
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "2": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 6
+                }
+            },
+            "76561197960265733": {
+                "match_stats": {
+                    "deaths": 3
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 1,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "2": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 6
+                }
+            },
+            "76561197960265733": {
+                "match_stats": {
+                    "deaths": 3
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265731": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 7
+                }
+            },
+            "76561197960265736": {
+                "match_stats": {
+                    "deaths": 1
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 2,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265731": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 7
+                }
+            },
+            "76561197960265736": {
+                "match_stats": {
+                    "deaths": 1
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "2": {
+                "match_stats": {
+                    "deaths": 2
+                }
+            },
+            "76561197960265730": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 4
+                }
+            },
+            "76561197960265733": {
+                "match_stats": {
+                    "assists": 0,
+                    "score": 6
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 10
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 11
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "2": {
+                "match_stats": {
+                    "deaths": 2
+                }
+            },
+            "76561197960265730": {
+                "match_stats": {
+                    "kills": 2,
+                    "score": 4
+                }
+            },
+            "76561197960265733": {
+                "match_stats": {
+                    "assists": 0,
+                    "score": 6
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 12
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 12
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265729": {
+                "match_stats": {
+                    "kills": 3,
+                    "score": 10
+                }
+            },
+            "76561197960265730": {
+                "match_stats": {
+                    "deaths": 2
+                }
+            },
+            "76561197960265732": {
+                "match_stats": {
+                    "assists": 1,
+                    "score": 11
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
+}{
+    "allplayers": {
+        "2": {
+            "name": "Stone",
+            "observer_slot": 6,
+            "team": "T",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 8
+            }
+        },
+        "76561197960265729": {
+            "name": "Rip",
+            "observer_slot": 7,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 1,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 12
+            }
+        },
+        "76561197960265730": {
+            "name": "Cliffe",
+            "observer_slot": 1,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 0,
+                "deaths": 3,
+                "mvps": 0,
+                "score": 6
+            }
+        },
+        "76561197960265731": {
+            "name": "Rock",
+            "observer_slot": 2,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 3,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 9
+            }
+        },
+        "76561197960265732": {
+            "name": "Arnold",
+            "observer_slot": 8,
+            "team": "T",
+            "match_stats": {
+                "kills": 5,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 2,
+                "score": 12
+            }
+        },
+        "76561197960265733": {
+            "name": "Garret",
+            "observer_slot": 3,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 1,
+                "deaths": 4,
+                "mvps": 0,
+                "score": 7
+            }
+        },
+        "76561197960265734": {
+            "name": "Crusher",
+            "observer_slot": 9,
+            "team": "T",
+            "match_stats": {
+                "kills": 4,
+                "assists": 2,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 10
+            }
+        },
+        "76561197960265735": {
+            "name": "Gunner",
+            "observer_slot": 4,
+            "team": "CT",
+            "match_stats": {
+                "kills": 3,
+                "assists": 2,
+                "deaths": 3,
+                "mvps": 1,
+                "score": 8
+            }
+        },
+        "76561197960265736": {
+            "name": "Kurt",
+            "observer_slot": 0,
+            "team": "T",
+            "match_stats": {
+                "kills": 1,
+                "assists": 1,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 4
+            }
+        },
+        "76561197960265737": {
+            "name": "Ridgway",
+            "observer_slot": 5,
+            "team": "CT",
+            "match_stats": {
+                "kills": 0,
+                "assists": 0,
+                "deaths": 2,
+                "mvps": 0,
+                "score": 0
+            }
+        }
+    },
+    "previously": {
+        "allplayers": {
+            "76561197960265729": {
+                "match_stats": {
+                    "kills": 3,
+                    "score": 10
+                }
+            },
+            "76561197960265730": {
+                "match_stats": {
+                    "deaths": 2
+                }
+            },
+            "76561197960265732": {
+                "match_stats": {
+                    "assists": 1,
+                    "score": 11
+                }
+            }
+        }
+    },
+    "auth": {
+        "token": "Q79v5tcxVQ8u"
+    }
 }
