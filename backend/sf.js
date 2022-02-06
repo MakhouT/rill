@@ -13,6 +13,8 @@ const wallet = new ethers.Wallet(
   new ethers.providers.JsonRpcProvider(jsonRPCProvider)
 );
 
+const fDAIxGoerliAddress = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00";
+
 const sf = new SuperfluidSDK.Framework({
   web3,
 });
@@ -33,7 +35,7 @@ async function startFlow(receiver) {
   console.log('Create call to flow funds');
   const callData = sf.agreements.cfa.contract.methods
     .createFlow(
-      "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00", // fDAIx on goerli
+      fDAIxGoerliAddress, // Address = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00" on goerli;
       receiver, // address to flow to
       "1000000000000", // 2592 DAIx per month
       "0x" // data
@@ -60,7 +62,7 @@ async function stopFlow(receiver) {
   console.log('Create call to stop funds flow');
   const callData = sf.agreements.cfa.contract.methods
     .deleteFlow(
-      "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00", // fDaix on goerli
+      fDAIxGoerliAddress, // Address = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00" on goerli;
       wallet.address, // address of the user starting the flow
       receiver, // address to stop flow
       "0x" // data
@@ -77,11 +79,43 @@ async function stopFlow(receiver) {
   console.log(receipt);
 }
 
+async function createIndex(){
+  //id is a number randomly generated between 1 and a billion
+  const id = Math.floor(Math.random() * 1000000000);
+  console.log('id', id);
+
+  try {
+    const createIndexOperation = sf.idaV1.createIndex({
+      indexId: id,
+      superToken: fDAIxGoerliAddress,
+    });
+    console.log(createIndexOperation);
+
+    console.log("Creating your Index...");
+    await createIndexOperation.exec(signer);
+    console.log(
+      `Congrats - you've just created a new Index!
+       Network: Goerli
+       Super Token: fDAIx
+       Index ID: ${id}
+    `
+    );
+  } catch (error) {
+    console.error(error);
+  }
+
+}
+
+
+
 async function start() {
   await initialize();
 
   // startFlow("0x389d212B12618dbDF4B1Ff5c4317DB5E096f954E");
-  stopFlow("0x389d212B12618dbDF4B1Ff5c4317DB5E096f954E");
+  // stopFlow("0x389d212B12618dbDF4B1Ff5c4317DB5E096f954E");
+  createIndex();
 }
+
+
 
 start();
