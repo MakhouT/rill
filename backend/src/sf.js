@@ -1,8 +1,8 @@
-const SuperfluidSDK = require("@superfluid-finance/js-sdk");
+const { Framework } = require("@superfluid-finance/sdk-core");
 const Superfluid_ABI = require("@superfluid-finance/js-sdk/src/abi");
 const Web3 = require("web3");
 const { ethers } = require("ethers");
-require('dotenv').config()
+require('dotenv').config();
 
 const privateKey = process.env.PRIVATE_KEY;
 
@@ -15,74 +15,78 @@ const wallet = new ethers.Wallet(
 
 const fDAIxGoerliAddress = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00";
 
-const sf = new SuperfluidSDK.Framework({
-  web3,
-});
-
+let sf;
+let signer;
 async function initialize() {
   console.log('Initializing SuperFluid SDK');
-  await sf.initialize();
+   sf = await Framework.create({
+    networkName: "goerli",
+    provider: new ethers.providers.JsonRpcProvider(jsonRPCProvider),
+  });
+  
+   signer = sf.createSigner({
+    privateKey: privateKey,
+    provider: new ethers.providers.JsonRpcProvider(jsonRPCProvider),
+  });
 };
 
 async function startFlow(receiver) {
-  console.log('Connecting to host contract');
-  const contract = new ethers.Contract(
-    "0x22ff293e14F1EC3A09B137e9e06084AFd63adDF9", // Host
-    Superfluid_ABI.ISuperfluid,
-    wallet
-  );
+  try {
+    const createFlowOperation = sf.cfaV1.createFlow({
+      flowRate: '1000000000000', // 2592 DAIx per month
+      receiver,
+      superToken: fDAIxGoerliAddress,
+    });
 
-  console.log('Create call to flow funds');
-  const callData = sf.agreements.cfa.contract.methods
-    .createFlow(
-      fDAIxGoerliAddress, // Address = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00" on goerli;
-      receiver, // address to flow to
-      "1000000000000", // 2592 DAIx per month
-      "0x" // data
-    )
-    .encodeABI();
+    console.log("Creating your stream...");
 
-  // send tx
-  const receipt = await contract["callAgreement"](
-    "0xEd6BcbF6907D4feEEe8a8875543249bEa9D308E8", // CFAv1 address
-    callData,
-    "0x"
-  );
-  console.log(receipt);
+    const result = await createFlowOperation.exec(signer);
+    console.log(result);
+
+    console.log(
+      `Congrats - you've just created a money stream!
+       View Your Stream At: https://app.superfluid.finance/dashboard/${receiver}
+       Super Token: DAIx
+      `
+    );
+  } catch (error) {
+    console.log(
+      "Hmmm, your transaction threw an error. Make sure that this stream does not already exist, and that you've entered a valid Ethereum address!"
+    );
+    console.error(error);
+  }
 }
 
 async function stopFlow(receiver) {
   console.log('Connecting to host contract');
-  const contract = new ethers.Contract(
-    "0x22ff293e14F1EC3A09B137e9e06084AFd63adDF9", // Host
-    Superfluid_ABI.ISuperfluid,
-    wallet
-  );
+  try {
+    const deleteFlowOperation = sf.cfaV1.deleteFlow({
+      sender: wallet.address,
+      receiver,
+      superToken: fDAIxGoerliAddress,
+    });
 
-  console.log('Create call to stop funds flow');
-  const callData = sf.agreements.cfa.contract.methods
-    .deleteFlow(
-      fDAIxGoerliAddress, // Address = "0xF2d68898557cCb2Cf4C10c3Ef2B034b2a69DAD00" on goerli;
-      wallet.address, // address of the user starting the flow
-      receiver, // address to stop flow
-      "0x" // data
-    )
-    .encodeABI();
+    console.log("Deleting your stream...");
 
-  // send tx
-  const receipt = await contract["callAgreement"](
-    "0xEd6BcbF6907D4feEEe8a8875543249bEa9D308E8", // CFAv1 address
-    callData,
-    "0x"
-  );
+    await deleteFlowOperation.exec(signer);
 
-  console.log(receipt);
+    console.log(
+      `Congrats - you've just deleted your money stream!
+       Network: Goerli
+       Super Token: DAIx
+       Sender: ${wallet.address}
+       Receiver: ${receiver}
+    `
+    );
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 async function createIndex(){
   //id is a number randomly generated between 1 and a billion
   const id = Math.floor(Math.random() * 1000000000);
-  console.log('id', id);
+  console.log('id:', id);
 
   try {
     const createIndexOperation = sf.idaV1.createIndex({
@@ -107,13 +111,12 @@ async function createIndex(){
 }
 
 
-
 async function start() {
   await initialize();
 
-  // startFlow("0x389d212B12618dbDF4B1Ff5c4317DB5E096f954E");
-  // stopFlow("0x389d212B12618dbDF4B1Ff5c4317DB5E096f954E");
-  createIndex();
+  // startFlow("0xF94C51949dECe1D5Abedd361DD0AedF6FCaC12C6");
+  // stopFlow("0xF94C51949dECe1D5Abedd361DD0AedF6FCaC12C6");
+  await createIndex();
 }
 
 start();
@@ -121,4 +124,4 @@ start();
 module.exports = {
   startFlow,
   stopFlow
-}
+};
