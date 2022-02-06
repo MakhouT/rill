@@ -116,6 +116,9 @@ async function start() {
   createIndex();
 }
 
-
-
 start();
+
+module.exports = {
+  startFlow,
+  stopFlow
+}
